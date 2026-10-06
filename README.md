@@ -125,4 +125,4 @@ Full terms are in **[LICENSE.md](LICENSE.md)**. Open-source parts keep their own
 
 This repo has releases, docs and feedback. The source code is private.
 
-Made by Ansh Srivastava ([@xblackwaterx](https://github.com/xblackwaterx)).
+Made with 🧡 by Ansh Srivastava ([@xblackwaterx](https://github.com/xblackwaterx)).
