@@ -1,0 +1,123 @@
+name: Report a problem
+description: Something in Shuck didn't work the way you expected.
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Shuck better.
+
+        **Please don't paste the text you captured, and don't attach screenshots of your screen.** They can hold
+        private information, and everything here is public. Describe the *kind* of content instead
+        ("a table in a PDF", "white text on a dark video"). If the bug only shows with one image, say so and we'll
+        ask whether you can make a version with nothing private in it.
+
+  - type: input
+    id: version
+    attributes:
+      label: Shuck version
+      description: Settings › About shows it, e.g. "Shuck 1.0.0".
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: windows_detail
+    attributes:
+      label: Windows build (optional)
+      description: Press Win+R, type `winver`, press Enter.
+      placeholder: e.g. 24H2, build 26100
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of Shuck?
+      options:
+        - Install, SmartScreen or first run
+        - Capture shortcut (does nothing, wrong keys, conflict)
+        - Selecting an area (the frozen screen)
+        - The text that came out (missing, wrong, wrong order)
+        - Open link or Email buttons
+        - QR code or barcode
+        - Library
+        - Settings
+        - Tray icon or Shuck's main window
+        - Accessibility (keyboard, screen reader, text size, contrast)
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen
+      description: Numbered steps, if you know them. "It happened once" is fine too.
+      placeholder: |
+        1. Open a YouTube video and pause it
+        2. Press Ctrl+Shift+2
+        3. Drag over the subtitles
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did Shuck do instead?
+      placeholder: I expected the subtitle line on my clipboard. The notification said "Nothing to shuck here".
+    validations:
+      required: true
+
+  - type: dropdown
+    id: how_often
+    attributes:
+      label: How often?
+      options:
+        - Every time
+        - Sometimes
+        - Once so far
+    validations:
+      required: true
+
+  - type: input
+    id: display
+    attributes:
+      label: Display setup (optional)
+      description: Number of monitors and their scaling, if you know it.
+      placeholder: e.g. laptop at 150% + external monitor at 100%
+    validations:
+      required: false
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics (optional, but it helps a lot)
+      description: |
+        In Shuck, Settings › About › "Copy diagnostics" (or "Report a problem") copies your version, Windows build,
+        display sizes, timings and usage counts. It's built to leave out captured text and images. Read it before pasting,
+        and remove anything you'd rather not share.
+      render: text
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before you submit
+      options:
+        - label: I haven't pasted captured text or a screenshot with private information in it. I understand this issue is public.
+          required: true

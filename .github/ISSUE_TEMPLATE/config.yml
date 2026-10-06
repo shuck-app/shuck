@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "What should Pro do?"
+    url: https://github.com/shuck-app/shuck/discussions/categories/what-should-pro-do
+    about: Ideas for Shuck and Shuck Pro live here. Upvote the ones you'd use.
+  - name: Questions and install help
+    url: https://github.com/shuck-app/shuck/discussions/categories/q-a
+    about: SmartScreen warnings, "is this safe?", how-to questions.
+  - name: Uninstalled? Tell us why
+    url: https://github.com/shuck-app/shuck/discussions/categories/uninstalled-tell-us-why
+    about: One line is plenty. It helps more than you'd think.
+  - name: Security problem
+    url: https://github.com/shuck-app/shuck/security/advisories/new
+    about: Please report security issues privately here, not in a public issue.

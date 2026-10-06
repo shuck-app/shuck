@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Shuck">
+  <title>Shuck</title>
+  <defs><clipPath id="shuck-c"><rect x="32" y="32" width="448" height="448" rx="104"/></clipPath></defs>
+  <rect x="32" y="32" width="448" height="448" rx="104" fill="#FF7A1A"/>
+  <g clip-path="url(#shuck-c)">
+    <!-- exposed surface under the shucked corner -->
+    <path d="M480 200V480H200Z" fill="#16161A"/>
+    <!-- 3 text lines, revealed -->
+    <g stroke="#FFF4E8" stroke-width="26" stroke-linecap="round">
+      <path d="M366 342H416"/><path d="M312 396H416"/><path d="M258 450H416"/>
+    </g>
+    <!-- curl: shadow, then flap -->
+    <path transform="translate(-9 -9)" d="M480 200L310 256Q262 262 256 310L200 480Z" fill="#D9560A"/>
+    <path d="M480 200L310 256Q262 262 256 310L200 480Z" fill="#FFD2A6"/>
+  </g>
+</svg>
