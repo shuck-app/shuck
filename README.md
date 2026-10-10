@@ -21,7 +21,7 @@ Free for Windows. Works offline.</p>
   <a href="LICENSE.md">Licence</a>
 </p>
 
-![Shuck copying text from a paused video](docs/hero.gif)
+<p align="center"><img src="docs/overlay-hero.png" width="505" alt="Dragging a box over the words Pixels in. Text out."></p>
 
 Some text on your screen can't be selected, like video subtitles, screenshots, error messages and scanned PDFs. Shuck lets you copy it.
 
@@ -46,9 +46,18 @@ Shuck reads the text on your PC. It works offline. You don't need an account, an
 | **Accessibility** | Works with the keyboard and screen readers. Text size goes up to 225%. |
 
 <p align="center">
-  <img src="docs/toast.png" width="32%" alt="The notification after a capture, with Open link and Email">
-  <img src="docs/home.png" width="32%" alt="Shuck's main window">
-  <img src="docs/library.png" width="32%" alt="The Library">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/toast-dark.png">
+    <img src="docs/toast.png" width="450" alt="The notification after a capture, with Open link and Email buttons">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/home-dark.png">
+    <img src="docs/home.png" width="48%" alt="Shuck's main window with recent captures">
+  </picture>
+  <img src="docs/library.png" width="48%" alt="The Library, searching for example">
 </p>
 
 **Good to know**
@@ -71,8 +80,6 @@ Shuck isn't code-signed yet. Signing costs money, and Shuck is free. So Windows 
 2. Check that the file name starts with `Shuck_` and that you got it from the download link above.
 3. Click **Run anyway**.
 
-![SmartScreen: click More info](docs/smartscreen-1.png)
-![SmartScreen: Run anyway](docs/smartscreen-2.png)
 
 </details>
 
