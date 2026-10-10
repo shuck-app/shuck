@@ -21,7 +21,12 @@ Free for Windows. Works offline.</p>
   <a href="LICENSE.md">Licence</a>
 </p>
 
-<p align="center"><img src="docs/overlay-hero.png" width="505" alt="Dragging a box over the words Pixels in. Text out."></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/hero-dark.png">
+    <img src="docs/hero.png" width="880" alt="Dragging a box over the words Pixels in. Text out. Then the notification: Shucked 39 characters, with Open link and Email buttons.">
+  </picture>
+</p>
 
 Some text on your screen can't be selected, like video subtitles, screenshots, error messages and scanned PDFs. Shuck lets you copy it.
 
@@ -47,17 +52,9 @@ Shuck reads the text on your PC. It works offline. You don't need an account, an
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/toast-dark.png">
-    <img src="docs/toast.png" width="450" alt="The notification after a capture, with Open link and Email buttons">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/windows-dark.png">
+    <img src="docs/windows.png" width="1232" alt="Shuck's main window with recent captures, next to the Library searching for example">
   </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/home-dark.png">
-    <img src="docs/home.png" width="48%" alt="Shuck's main window with recent captures">
-  </picture>
-  <img src="docs/library.png" width="48%" alt="The Library, searching for example">
 </p>
 
 **Good to know**
