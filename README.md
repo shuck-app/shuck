@@ -24,7 +24,7 @@ Free for Windows. Works offline.</p>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/hero-dark.png">
-    <img src="docs/hero.png" width="880" alt="Dragging a box over the words Pixels in. Text out. Then the notification: Shucked 39 characters, with Open link and Email buttons.">
+    <img src="docs/hero.png" width="880" alt="Dragging a box over a web address and an email address. Then the notification: Shucked 39 characters, with Open link and Email buttons.">
   </picture>
 </p>
 
@@ -47,13 +47,13 @@ Shuck reads the text on your PC. It works offline. You don't need an account, an
 | **Library** | Keeps your last 20 captures. Search them and copy them again. |
 | **Line breaks** | Keep them as they are, or join lines into paragraphs. |
 | **Your own shortcut** | Pick your own keys with Ctrl or Alt. |
-| **Tray app** | Starts with Windows. You can turn this off. |
+| **Tray app** | Waits in the system tray, next to the clock. Starts with Windows. You can turn this off. |
 | **Accessibility** | Works with the keyboard and screen readers. Text size goes up to 225%. |
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/windows-dark.png">
-    <img src="docs/windows.png" width="1232" alt="Shuck's main window with recent captures, next to the Library searching for example">
+    <img src="docs/windows.png" width="1232" alt="Shuck Home showing your last 3 captures, next to the Library showing your last 20 captures with Copy buttons">
   </picture>
 </p>
 
@@ -97,7 +97,7 @@ Here's what we're planning:
 
 Tell us what you want in **[What should Pro do?](https://github.com/shuck-app/shuck/discussions/categories/what-should-pro-do)**
 
-In Shuck, you can press **Join the waitlist**. It adds one anonymous count, so we know how many people want Pro. It doesn't sign you up for anything. To hear when Pro is out, watch this repo's releases.
+In Shuck, you can press **Join the waitlist**. It adds one anonymous count, so we know how many people want Pro. It doesn't sign you up for anything. To hear when Pro is out, watch this repo's releases (**Watch → Custom → Releases** at the top of this page).
 
 ## Need help?
 
