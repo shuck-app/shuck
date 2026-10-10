@@ -123,7 +123,7 @@ Read the full version in **[PRIVACY.md](PRIVACY.md)**. Private questions: shuck.
 - Free to use, at home or at work.
 - Not open source. © 2026 Ansh Srivastava, all rights reserved.
 - Please don't sell it, share changed copies, or reverse engineer it.
-- To share Shuck, share a link to this page, not the installer file.
+- You can share the unmodified installer. Linking to this page is even better, so people get the latest version.
 
 Full terms are in **[LICENSE.md](LICENSE.md)**. Open-source parts keep their own licences. See them in **Settings → About → Open-source licences**.
 
