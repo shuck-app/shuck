@@ -60,7 +60,7 @@ Pressing the button is your choice. If you don't press it, nothing is sent.
 
 **Installing.** The installer comes from GitHub. If the Microsoft WebView2 Runtime is missing (Windows 11 already has it), the installer downloads it from Microsoft. Windows SmartScreen or Microsoft Defender may also check the downloaded installer with Microsoft.
 
-**Microsoft components.** Shuck uses Microsoft WebView2 and Windows itself. What those send to Microsoft depends on your Windows privacy and diagnostic settings, not on Shuck. "No telemetry" in this policy means Shuck's own code.
+**Microsoft components.** Shuck draws its windows with Microsoft WebView2. Its windows are pages inside the app and need no internet, so Shuck asks WebView2 not to make requests of its own, such as looking up your Windows account or downloading its configuration and components. Microsoft's Edge updater still keeps the WebView2 Runtime itself up to date for every app that uses it, and what Windows sends to Microsoft depends on your Windows privacy and diagnostic settings, not on Shuck. "No telemetry" in this policy means Shuck's own code.
 
 **Uninstalling.** The uninstaller's last page has a **Tell us why you uninstalled** box, unticked by default. Only if you tick it, the uninstaller opens our "Uninstalled? Tell us why" discussion page on GitHub in your browser. The page address includes your Shuck version and `os=win`. GitHub receives that like any page visit; we don't receive anything ourselves. Answering is optional, needs a GitHub account, and your answer is public.
 
