@@ -1,6 +1,6 @@
 # Shuck privacy
 
-**Effective 6 October 2026. Applies to Shuck Free 1.0 for Windows.**
+**Effective 17 October 2026. Applies to Shuck Free 1.0 for Windows.**
 
 Short version: Shuck reads your screen on your computer and keeps what it reads on your computer. There's no account, no analytics and no telemetry. Shuck goes online only to ask GitHub once a day whether there's a newer version (you can turn this off), and when you press **Join the waitlist**.
 
@@ -17,12 +17,12 @@ When you press the shortcut, Shuck takes a picture of your screens and shows it 
 
 ## What Shuck stores, and where
 
-Shuck keeps its files in your Windows user account: your user folder and your part of the registry, listed below. Shuck doesn't store anything on a server. Windows itself may keep copies of things you copy (see above).
+Shuck keeps its files in your Windows user account: your user folder and your part of the registry, listed below. Its files are in your local app data folder, which Windows doesn't copy to other computers even when your organisation uses roaming profiles. Shuck doesn't store anything on a server. Windows itself may keep copies of things you copy (see above).
 
 | What | Where | What's in it |
 |---|---|---|
-| Library | `%APPDATA%\app.shuck.desktop\library.db` | Your last 20 captures: the text, the links and addresses found in it, what kind it was (text, link, QR…), the time, a search index of the text, and a small thumbnail of the captured area (at most 160 × 120 pixels). |
-| Settings | `%APPDATA%\app.shuck.desktop\settings.json` | Your choices (shortcut, line breaks, text size and so on), window sizes, the date you joined the waitlist if you did, when Shuck last checked for updates, the newest version it saw and whether you dismissed its notice, and simple usage counts (see below). |
+| Library | `%LOCALAPPDATA%\app.shuck.desktop\library.db` | Your last 20 captures: the text, the links and addresses found in it, what kind it was (text, link, QR…), the time, a search index of the text, and a small thumbnail of the captured area (at most 160 × 120 pixels). |
+| Settings | `%LOCALAPPDATA%\app.shuck.desktop\settings.json` | Your choices (shortcut, line breaks, text size and so on), window sizes, the date you joined the waitlist if you did, when Shuck last checked for updates, the newest version it saw and whether you dismissed its notice, and simple usage counts (see below). |
 | Log | `%LOCALAPPDATA%\app.shuck.desktop\logs\shuck.log` | Technical notes for fixing bugs: timings, image sizes, character counts, errors. Shuck is built not to write the text you captured into the log. Error notes can include folder paths, which contain your Windows user name. |
 | App window data | `%LOCALAPPDATA%\app.shuck.desktop\` | Working files of the Microsoft WebView2 component that draws Shuck's windows. |
 | Launch at login | Windows registry, `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`, value `Shuck` | Launch at login is on by default. You can turn it off during setup or in **Settings → General**, which removes this value. The uninstaller removes it too. |
@@ -74,10 +74,10 @@ Pressing the button is your choice. If you don't press it, nothing is sent.
 ## Deleting your data
 
 - **In the app:** Settings → Library & privacy → **Delete all data**. This removes your Library, settings and log. You can undo it while the Undo button shows; after that the files are deleted. Launch at login stays as you set it.
-- **When uninstalling:** tick **Also delete my captures and settings**. This removes both Shuck folders listed above.
-- **By hand:** quit Shuck from the tray, then delete these two folders:
-  - `%APPDATA%\app.shuck.desktop`
+- **When uninstalling:** tick **Also delete my captures and settings**. This removes Shuck's folder listed above, and `%APPDATA%\app.shuck.desktop` too if a test version of Shuck left one.
+- **By hand:** quit Shuck from the tray, then delete these folders:
   - `%LOCALAPPDATA%\app.shuck.desktop`
+  - `%APPDATA%\app.shuck.desktop`, if it exists (test versions before 1.0 kept the Library and settings there; Shuck 1.0 moves them to the folder above when it starts)
 
   Paste each path into the File Explorer address bar to find it.
 - **The waitlist count** can't be deleted per person, because nothing in it points to you.
