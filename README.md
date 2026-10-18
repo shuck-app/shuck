@@ -80,7 +80,15 @@ Shuck isn't code-signed yet. Signing costs money, and Shuck is free. So Windows 
 
 </details>
 
-**Installing from a terminal:** run `Shuck_1.0.0_x64-setup.exe /S` to install silently. It installs for you only, so you don't need admin rights. Then open Shuck from the Start menu once. Once the Windows Package Manager listing is approved, you can also run `winget install --id ShuckApp.Shuck`.
+**Installing from a terminal:** run `Shuck_1.0.0_x64-setup.exe /S` to install silently. It installs for you only, so you don't need admin rights. Then open Shuck from the Start menu once.
+
+Or download and install in one go from PowerShell. It gets the latest installer from this repo's releases:
+
+```powershell
+irm https://github.com/shuck-app/shuck/releases/latest/download/Shuck-setup.exe -OutFile "$env:TEMP\Shuck-setup.exe"; & "$env:TEMP\Shuck-setup.exe" /S
+```
+
+To check the file first, run `Get-FileHash $env:TEMP\Shuck-setup.exe` after the download and compare it with `SHA256SUMS` on the release page.
 
 **You need:** Windows 10 or 11 (64-bit) and about 20 MB of space. Shuck also needs Microsoft WebView2. Windows 11 already has it. If your PC doesn't, the installer gets it from Microsoft.
 
