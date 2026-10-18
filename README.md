@@ -80,7 +80,7 @@ Shuck isn't code-signed yet. Signing costs money, and Shuck is free. So Windows 
 
 </details>
 
-**Installing from a terminal:** run `.\Shuck_1.0.0_x64-setup.exe /S` in the folder you downloaded it to, to install silently. It installs for you only, so you don't need admin rights. Then open Shuck from the Start menu once.
+**Installing from a terminal:** run `.\Shuck-setup.exe /S` in the folder you downloaded it to, to install silently. It installs for you only, so you don't need admin rights. Then open Shuck from the Start menu once.
 
 Or download and install in one go from PowerShell. It gets the latest installer from this repo's releases:
 
