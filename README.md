@@ -10,7 +10,7 @@
 Free for Windows. Works offline.</p>
 
 <p align="center">
-  <a href="https://github.com/shuck-app/shuck/releases/latest/download/Shuck-setup.exe"><b>Download for Windows</b></a> (6.3 MB)<br><sub><a href="https://github.com/shuck-app/shuck/releases/latest">All versions and checksums</a></sub>
+  <a href="https://github.com/shuck-app/shuck/releases/latest/download/Shuck-setup.exe"><b>Download for Windows</b></a><br><sub><a href="https://github.com/shuck-app/shuck/releases/latest">All versions and checksums</a></sub>
 </p>
 
 <p align="center">
