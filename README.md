@@ -80,6 +80,8 @@ Shuck isn't code-signed yet. Signing costs money, and Shuck is free. So Windows 
 
 </details>
 
+**Installing from a terminal:** run `Shuck_1.0.0_x64-setup.exe /S` to install silently. It installs for you only, so you don't need admin rights. Then open Shuck from the Start menu once. Once the Windows Package Manager listing is approved, you can also run `winget install --id ShuckApp.Shuck`.
+
 **You need:** Windows 10 or 11 (64-bit) and about 20 MB of space. Shuck also needs Microsoft WebView2. Windows 11 already has it. If your PC doesn't, the installer gets it from Microsoft.
 
 **Updates:** Shuck checks GitHub once a day for a new version and tells you. You can turn this off in Settings. To update, run the new installer. Your captures and settings stay.
