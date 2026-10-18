@@ -10,7 +10,7 @@
 Free for Windows. Works offline.</p>
 
 <p align="center">
-  <a href="https://github.com/shuck-app/shuck/releases/latest"><b>Download for Windows</b></a>
+  <a href="https://github.com/shuck-app/shuck/releases/latest/download/Shuck-setup.exe"><b>Download for Windows</b></a> (6.3 MB)<br><sub><a href="https://github.com/shuck-app/shuck/releases/latest">All versions and checksums</a></sub>
 </p>
 
 <p align="center">
@@ -64,8 +64,8 @@ Shuck reads the text on your PC. It works offline. You don't need an account, an
 
 ## Install
 
-1. **[Download the latest version](https://github.com/shuck-app/shuck/releases/latest).**
-2. Run the file you downloaded. Its name looks like `Shuck_x.y.z_x64-setup.exe`.
+1. **[Download Shuck](https://github.com/shuck-app/shuck/releases/latest/download/Shuck-setup.exe).** The download starts straight away.
+2. Run `Shuck-setup.exe` from your Downloads folder.
 3. That's it. You don't need admin rights.
 
 <details>
@@ -74,7 +74,7 @@ Shuck reads the text on your PC. It works offline. You don't need an account, an
 Shuck isn't code-signed yet. Signing costs money, and Shuck is free. So Windows shows a warning the first time.
 
 1. Click **More info**.
-2. Check that the file name starts with `Shuck_` and that you got it from the download link above.
+2. Check that the app name says Shuck and that you got it from the download link above.
 3. Click **Run anyway**.
 
 
