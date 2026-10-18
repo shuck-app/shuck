@@ -28,6 +28,11 @@ Free for Windows. Works offline.</p>
   </picture>
 </p>
 
+
+https://github.com/user-attachments/assets/cdee4c90-b201-4b84-9aa9-f71e432f4c1f
+
+
+
 Some text on your screen can't be selected, like video subtitles, screenshots, error messages and scanned PDFs. Shuck lets you copy it.
 
 ## How it works
