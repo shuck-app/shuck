@@ -21,12 +21,6 @@ Free for Windows. Works offline.</p>
   <a href="LICENSE.md">Licence</a>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/hero-dark.png">
-    <img src="docs/hero.png" width="880" alt="Dragging a box over a web address and an email address. Then the notification: Shucked 39 characters, with Open link and Email buttons.">
-  </picture>
-</p>
 
 
 https://github.com/user-attachments/assets/cdee4c90-b201-4b84-9aa9-f71e432f4c1f
