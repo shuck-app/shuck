@@ -79,6 +79,8 @@ Shuck isn't code-signed yet. Signing costs money, and Shuck is free. So Windows 
 
 </details>
 
+**Portable version:** prefer not to install? [Download Shuck Portable](https://github.com/shuck-app/shuck/releases/download/v1.0.1-portable/Shuck-portable.zip), unzip anywhere and run `Shuck.exe`. Your data stays in a `data` folder next to it.
+
 **Installing from a terminal:** run `.\Shuck-setup.exe /S` in the folder you downloaded it to, to install silently. It installs for you only, so you don't need admin rights. Then open Shuck from the Start menu once.
 
 Or download and install in one go from PowerShell. It gets the latest installer from this repo's releases:
