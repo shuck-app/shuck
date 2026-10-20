@@ -1,6 +1,6 @@
 # Shuck privacy
 
-**Effective 17 October 2026. Applies to Shuck Free 1.0 for Windows.**
+**Effective 20 October 2026. Applies to Shuck Free 1.0 for Windows, installed and portable.**
 
 Short version: Shuck reads your screen on your computer and keeps what it reads on your computer. There's no account, no analytics and no telemetry. Shuck goes online only to ask GitHub once a day whether there's a newer version (you can turn this off), and when you press **Join the waitlist**.
 
@@ -27,6 +27,8 @@ Shuck keeps its files in your Windows user account: your user folder and your pa
 | App window data | `%LOCALAPPDATA%\app.shuck.desktop\` | Working files of the Microsoft WebView2 component that draws Shuck's windows. |
 | Launch at login | Windows registry, `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`, value `Shuck` | Launch at login is on by default. You can turn it off during setup or in **Settings → General**, which removes this value. The uninstaller removes it too. |
 | Uninstall entry | Windows registry, under `HKEY_CURRENT_USER` | The entry Windows uses to list Shuck in your installed apps. The uninstaller removes it. |
+
+**Portable version.** In the portable version, everything Shuck saves stays in the data folder next to Shuck.exe, and it writes nothing to the registry. The only trace outside that folder is a taskbar shortcut list entry that Microsoft WebView2 (the component that draws Shuck's windows) creates; it contains no captures or personal data. To remove everything, quit Shuck and delete its folder.
 
 **Usage counts.** Settings keeps a few numbers, such as how many captures you've made, how many found no text, and how often you used each kind of button. They're counts only: never the text, links, addresses or anything you captured. They never leave your computer on their own. They're only included in the diagnostics that **Copy diagnostics** and **Report a problem** put on your clipboard, so you can read them and decide whether to paste them into a bug report.
 
